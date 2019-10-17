@@ -1,8 +1,8 @@
 
-////////////////////////////////
-///////  road to hire      ////
-//////   take notes!      ////
-/////////////////////////////
+//////////////////////////////////
+////////  road to hire      /////
+///////   take notes!      /////
+///////////////////////////////
 
 require('dotenv').config()
 const express = require("express");
@@ -28,7 +28,7 @@ if (process.env.NODE_ENV === "production") {
   uri = process.env.ATLAS_URI;
 } else {  
   // localhost
-  uri = process.env.LOCAL_URI 
+  uri = process.env.ATLAS_URI
 }
 
 // database connection ppol
